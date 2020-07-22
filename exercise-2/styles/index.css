@@ -52,4 +52,39 @@ p {
     top: 80%;
     width: 60%;
 }
-
+h1{
+    text-align: center;
+    text-transform: uppercase;
+/*
+text-transform 设置字母格式
+    uppercase: 全大写
+    lowercase: 全小写
+    capitalize: 首字母大写
+*/
+}
+h2{
+    text-transform: capitalize;
+}
+h1, h2{
+    font-family: Georgia;
+}
+p{
+    font-family: Helvetica;
+    font-size: 18px;
+}
+p::first-line{
+    font-weight: bold;
+}
+.image{
+    background-image: url('../img/background-img.jpg');
+}
+.caption{
+    background-color: white;
+    color: black;
+    font-style: italic;
+    opacity: 0.75;
+}
+.caption a:hover{
+    color: purple;
+    text-decoration: none;
+}
